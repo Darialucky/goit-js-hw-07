@@ -12,5 +12,6 @@ form.addEventListener("submit", (event) => {
     email,
     password,
   };
+  console.log(user);
   form.reset();
 });
